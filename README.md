@@ -7,7 +7,11 @@
 - 실험 환경 구축
     ##### 1. 데이터 셋 선정
     ##### 2. 데이터 셋 전처리 (메모리 부분 등 추출)
+    ###### --> (original) linux_memory. csv: ToN_IoT DATASET 
+    ###### --> (binary) ids_40000.csv: CIC-IDS 2017 DATASET
     ##### 3. 분류 모델 구현 (RNN)  
+    ###### --> LSTM_try2.ipynb: ToN_IoT DATASET + LSTM
+    ###### --> LSTM_try2_ids2017.ipynb: CIC-IDS 2017 DATASET + LSTM
 
 - 학습 PHASE
     ##### 1. 데이터 전처리 (Feature selection)
