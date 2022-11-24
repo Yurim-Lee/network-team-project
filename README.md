@@ -46,4 +46,4 @@
 
 #### 코드 수정
 <img src="img/metric_acc.png">
-###### --> Accuracy 부분을 위와 같이 구현한 뒤, 모델 metric 설정 부분을 acc로 수정
+- Accuracy 부분을 위와 같이 구현한 뒤, 모델 metric 설정 부분을 acc로 수정
