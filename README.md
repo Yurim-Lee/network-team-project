@@ -7,7 +7,7 @@
 - 실험 환경 구축
     ##### 1. 데이터 셋 선정
     ##### 2. 데이터 셋 전처리 (메모리 부분 등 추출)
-    ###### ~~--> (original) linux_memory. csv: ToN_IoT DATASET ~~
+    ###### ~~--> (original) linux_memory. csv: ToN_IoT DATASET~~
     ###### ~~--> (binary) ids_40000.csv: CIC-IDS 2017 DATASET~~
     ###### --> (block) ton_memory.csv: ToN_IoT DATASET 블록화 (공격->정상->공격->정상 .. 10번 반복해서 총 1만개 데이터셋(공격 5천, 정상 5천)
     ##### 3. 분류 모델 구현 (RNN)  
@@ -41,3 +41,9 @@
 - 탐지율
 - Latency
 - Memory consumption
+
+
+
+#### 코드 수정
+<img src="./img/metric_cc.png">
+    ###### --> Accuracy 부분을 위와 같이 구현한 뒤, 모델 metric 설정 부분을 acc로 수정
