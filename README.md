@@ -19,7 +19,7 @@
 
 - 학습 PHASE
     ##### 1. 데이터 전처리 (Feature selection)
-    ####### --> dataset_shuffle.py: (block) ton_memory.csv를 shuffle하는 코드
+    ###### --> dataset_shuffle.py: (block) ton_memory.csv를 shuffle하는 코드
     ##### 2. RNN 학습  
 
 - 인증 
