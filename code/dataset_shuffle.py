@@ -16,6 +16,7 @@ cutoff = 1554234730
 df = df.set_index('ts')
 df
 df.reset_index(drop=False, inplace=True)
+df.drop(['ts'], axis=1)
 df
 
 #shuffle 데이터 셋을 csv 파일로 저장
