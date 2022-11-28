@@ -10,6 +10,7 @@
     ###### ~~--> (original) linux_memory. csv: ToN_IoT DATASET~~
     ###### ~~--> (binary) ids_40000.csv: CIC-IDS 2017 DATASET~~
     ###### --> (block) ton_memory.csv: ToN_IoT DATASET 블록화 (공격->정상->공격->정상 .. 10번 반복해서 총 1만개 데이터셋(공격 5천, 정상 5천)
+    ###### --> (block) shuffle dataset.csv: (block) ton_memory.csv를 shuffle한 데이터 셋 (비교대상)
     ##### 3. 분류 모델 구현 (RNN)  
     ###### ~~--> LSTM_try2.ipynb: ToN_IoT DATASET + LSTM~~
     ###### ~~--> LSTM_try2_ids2017.ipynb: CIC-IDS 2017 DATASET + LSTM~~
@@ -18,6 +19,7 @@
 
 - 학습 PHASE
     ##### 1. 데이터 전처리 (Feature selection)
+    ####### --> dataset_shuffle.py: (block) ton_memory.csv를 shuffle하는 코드
     ##### 2. RNN 학습  
 
 - 인증 
